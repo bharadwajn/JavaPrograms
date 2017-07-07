@@ -23,7 +23,8 @@ public class Third_Maximum_Number {
 			}
 			set.add(arr[i]);
 		}
-		int i = 3;
+
+		int i = 3;//To get the only the first three numbers
 		int max = heap.peek();
 		if(heap.size()<3) {
 			return max;
