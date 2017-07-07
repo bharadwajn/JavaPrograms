@@ -25,9 +25,11 @@ public class Third_Maximum_Number {
 		}
 
 		int i = 3;//To get the only the first three numbers
-		int max = heap.peek();
+
+		int max = heap.peek();//Get the maximum number
 		if(heap.size()<3) {
-			return max;
+			return max;//if heap size is less than 3 return the highest element in the heap.
+
 		}
 		while(i--!=0) {
 			max = heap.poll();
