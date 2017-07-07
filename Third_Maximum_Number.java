@@ -26,7 +26,7 @@ public class Third_Maximum_Number {
 		int i = 3;
 		int max = heap.peek();
 		if(heap.size()<3) {
-			return max;
+			return max;//if heap size is less than 3 return the highest element.
 		}
 		while(i--!=0) {
 			max = heap.poll();
