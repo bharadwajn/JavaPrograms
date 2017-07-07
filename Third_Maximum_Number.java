@@ -15,7 +15,7 @@ public class Third_Maximum_Number {
 
 	private static int thirdMaxim(int[] arr) {
 		// TODO Auto-generated method stub
-		Set<Integer> set = new HashSet<>();
+		Set<Integer> set = new HashSet<>();//To avoid duplicates
 		PriorityQueue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());//creating a heap
 		for(int i = 0; i < arr.length; i++) {
 			if(!set.contains(arr[i])) {
